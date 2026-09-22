@@ -181,12 +181,13 @@ data/your_epa_vehicle_file.csv
 
 ### 4) Run the notebook
 
-Open and run `/home/runner/work/fuel-efficiency-model/fuel-efficiency-model/dmpfinal.ipynb` top to bottom in Jupyter or Google Colab.
+Open and run `dmpfinal.ipynb` top to bottom in Jupyter or Google Colab.
 
 ## Repository structure
 
 ```text
 fuel-efficiency-model/
+├── data/               # local-only external dataset location (not committed)
 ├── dmpfinal.ipynb      # main analysis notebook
 ├── README.md           # project narrative and setup
 ├── requirements.txt    # core dependencies (+ optional extras documented in comments)
